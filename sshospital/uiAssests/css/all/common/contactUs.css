@@ -1,0 +1,11 @@
+@import URL('../main.css');
+
+.heading{
+  margin-top: 20px;
+  display: inline-block;
+}
+.heading-text{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
