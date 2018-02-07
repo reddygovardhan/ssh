@@ -10,23 +10,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/materialize.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/materialize.js"></script>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body ng-controller="MainController">
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"></a>
+          <a href="index.html" class="brand-logo"><img height="60px" src="images/logo.png" alt=""></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="index.html" class="active"><i class="material-icons">home</i>Home</a></li>
-
+        <ul class="right main-nav hide-on-med-and-down">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about-us.html" class="active">Abot Us</a></li>
+          <li><a href="services.html" class="active">Servces</a></li>
+          <li><a href="contact-us.html" class="active">Contact Us</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
 
       </div>
     </nav>
-
+    <footer class="row">
+      <div class="footer col s12">
+        <p style="padding-top:9px; padding-bottom:9px; display: inline-block;" class="white-text no-margin">
+          © 2018 Sai Siddhartha Hospital</p><span style="padding-top:9px; padding-bottom:9px; display: inline-block;" class="blue-text right">Powered By: G N Technologies</span>
+      </div>
+    </footer>
   </body>
 </html>
