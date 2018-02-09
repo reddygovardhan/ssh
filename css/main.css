@@ -1,6 +1,28 @@
 ///////////////////// Author: Govardhanreddy ///////////////////////
-.body{
-	background-image:url(../images/background.png)!important;  
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/opensans/OpenSans-Regular.woff");
+}
+.clearfix:after {
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+}
+html, body{
+	font-family: "OpenSans-Regular";
+}
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent;
 }
 img.logo{
   display: inline-block;
@@ -29,6 +51,22 @@ background-color: #e6e6e6;
 nav ul a:active{
   background-color: green!important;
   color: #ffffff!important;
+}
+.cont-sub-head{
+	color: #008b8b;
+	font-size: 32px;
+	margin: 20px;
+}
+.address{
+	margin-left: 30px;
+  color: #000000;
+  font-size: 16px;
+}
+.map-responsive, .map-responsive iframe{
+	height: 400px;
+	width: 100%;
+	position: relative;
+
 }
 .footer {
     background-color: #4d4d4d;
