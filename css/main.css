@@ -1,6 +1,6 @@
 ///////////////////// Author: Govardhanreddy ///////////////////////
-body{
-  background-image: url(images/background.jpg)!important;
+.body{
+	background-image:url(../images/background.png)!important;  
 }
 img.logo{
   display: inline-block;
