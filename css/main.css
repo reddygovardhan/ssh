@@ -1,7 +1,10 @@
 ///////////////////// Author: Govardhanreddy ///////////////////////
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
 @font-face {
     font-family: "OpenSans-Regular";
-    src: url("../fonts/opensans/OpenSans-Regular.woff");
+	font-weight: 100;
+	font-style: normal;
+    src: url("fonts/opensans/OpenSans-Regular.woff");
 }
 .clearfix:after {
 	clear: both;
@@ -14,7 +17,7 @@
 	width: 0;
 }
 html, body{
-	font-family: "OpenSans-Regular";
+	font-family: "OpenSans-Regular", Open Sans, Sans-serif;
 }
 body {
     background-image: url(../images/background.png);
@@ -38,6 +41,9 @@ img.logo{
   text-transform: uppercase;
   font-weight: bold;
   vertical-align: top;
+}
+.material-icon-color .material-icons{
+	color: #000000!impportant;
 }
 .main-nav{
   background-color: #ffffff!important;
@@ -63,15 +69,13 @@ nav ul a:active{
   font-size: 16px;
 }
 .map-responsive, .map-responsive iframe{
-	height: 400px;
+	height: 350px;
 	width: 100%;
-	position: relative;
 
 }
 .footer {
     background-color: #4d4d4d;
-    position: absolute;
-    bottom: 0 !important;
+    bottom: 0;
     width: 100%;
     margin-bottom: 0;
     opacity: 0.96;
@@ -80,7 +84,6 @@ nav ul a:active{
 .no-margin{
   margin: 0px!important;
 }
-@media query all screens(max-width:500px) {
-
-
+.no-padding{
+	padding: 0px!important;
 }
