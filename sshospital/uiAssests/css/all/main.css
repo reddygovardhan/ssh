@@ -1,3 +1,157 @@
-@font-face{font-family:"OpenSans-Regular";src:url("../../fonts/OpenSans-Regular.woff")}.clearfix:after{clear:both;content:" ";display:block;font-size:0;height:0;line-height:0;visibility:hidden;width:0}html,body{font-family:"OpenSans-Regular"}body{background-image:url(../../images/all/common/lab.png);background-repeat:no-repeat;background-position:center;background-attachment:fixed;background-size:cover;background-color:transparent}.progress_text{margin-top:15%;font-weight:bold}.deep_blue_text{color:#ff9800;text-shadow:0em 0em 0.1em #ffffff}.hc-login-cont{padding:20px 3%}.hc-header-section .hc-menu-icon{cursor:pointer;color:#000000;margin:0 10px}.hc-header-section .hc-brand-logo{width:200px;height:auto;vertical-align:bottom}.col.s12.slidemenuiconstext{padding-bottom:3px;padding-left:15px;padding-top:3px}.slidemenuiconstext{color:#ff9800;padding-left:25px !important}.homeiconcont{background-color:#ff9800}.doctoriconcont{background-color:#a0a09f}.abouttext{color:white}.hometext{color:white;font-weight:bold}.hc-menu-icon-style{font-size:37px}.slidemenuiconstext a{color:#ff9800;font-weight:bold}.slidemenuiconstext li{color:#ff9800}.side-manu-icons-style{color:#ff9800 !important;font-size:25px}.side-manu-icons-style-home{color:white !important;font-size:25px}.follow-icon-style{padding-left:4px;padding-right:25px}.typeSelected{background-color:#1C5F53;color:white !important;padding:29px}.home-text-style{color:white}.side-nav{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#fff;height:calc(100% + 30px);left:0;margin:0;overflow-y:auto;padding-bottom:60px;position:fixed;top:0;-webkit-transform:translateX(-105%);transform:translateX(-105%);width:320px;will-change:transform;z-index:999}.footer{background-color:#4d4d4d;position:absolute;bottom:0 !important;width:100%;margin-bottom:0;opacity:0.96;height:40px}.no-padding{padding:0 !important}.no-margin{margin:0 !important}.social-icon{background-color:white;color:#4d4d4d;width:30px;border-radius:50%;font-size:14px;padding-top:4px;padding-bottom:4px;padding-left:6px;padding-right:6px;text-align:center;margin:2px 4px}.social-list{display:-webkit-inline-box}.social-icon:hover{color:White;background-color:#ff9800}#sidenav-overlay{will-change:unset !important}@media only screen and (max-width: 500px){.footer{height:80px !important;font-size:12px}}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../../fonts/OpenSans-Regular.woff"); }
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0; }
+
+html, body {
+  font-family: "OpenSans-Regular"; }
+
+body {
+  background-image: url(../../images/all/common/lab.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: transparent; }
+
+.progress_text {
+  margin-top: 15%;
+  font-weight: bold; }
+
+.deep_blue_text {
+  color: #ff9800;
+  text-shadow: 0em 0em 0.1em #ffffff; }
+
+.hc-login-cont {
+  padding: 20px 3%; }
+
+/*	header styles	*/
+.hc-header-section .hc-menu-icon {
+  cursor: pointer;
+  color: #000000;
+  margin: 0 10px; }
+
+.hc-header-section .hc-brand-logo {
+  width: 200px;
+  height: auto;
+  vertical-align: bottom; }
+
+.col.s12.slidemenuiconstext {
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-top: 3px; }
+
+.slidemenuiconstext {
+  color: #ff9800;
+  padding-left: 25px !important; }
+
+.homeiconcont {
+  background-color: #ff9800; }
+
+.doctoriconcont {
+  background-color: #a0a09f; }
+
+.abouttext {
+  color: white; }
+
+.hometext {
+  color: white;
+  font-weight: bold; }
+
+.hc-menu-icon-style {
+  font-size: 37px; }
+
+.slidemenuiconstext a {
+  color: #ff9800;
+  font-weight: bold; }
+
+.slidemenuiconstext li {
+  color: #ff9800; }
+
+.side-manu-icons-style {
+  color: #ff9800 !important;
+  font-size: 25px; }
+
+.side-manu-icons-style-home {
+  color: white !important;
+  font-size: 25px; }
+
+.follow-icon-style {
+  padding-left: 4px;
+  padding-right: 25px; }
+
+.typeSelected {
+  background-color: #1C5F53;
+  color: white !important;
+  padding: 29px; }
+
+.home-text-style {
+  color: white; }
+
+.side-nav {
+  backface-visibility: hidden;
+  background-color: #fff;
+  height: calc(100% + 30px);
+  left: 0;
+  margin: 0;
+  overflow-y: auto;
+  padding-bottom: 60px;
+  position: fixed;
+  top: 0;
+  transform: translateX(-105%);
+  width: 320px;
+  will-change: transform;
+  z-index: 999; }
+
+.footer {
+  background-color: #4d4d4d;
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  margin-bottom: 0;
+  opacity: 0.96;
+  height: 40px; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.social-icon {
+  background-color: white;
+  color: #4d4d4d;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: center;
+  margin: 2px 4px; }
+
+.social-list {
+  display: -webkit-inline-box; }
+
+.social-icon:hover {
+  color: White;
+  background-color: #ff9800; }
+
+#sidenav-overlay {
+  will-change: unset !important; }
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    height: 80px !important;
+    font-size: 12px; } }
 
 /*# sourceMappingURL=main.css.map */
